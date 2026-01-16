@@ -15,8 +15,8 @@ RUN npm run build
 # Install serve to run the application
 RUN npm install -g serve
 
-# Expose port (Coolify uses 3000 by default for Node)
-EXPOSE 3000
+# Expose port (Coolify expects 80)
+EXPOSE 80
 
 # Start command
-CMD ["serve", "-s", "dist", "-l", "3000"]
+CMD ["serve", "-s", "dist", "-l", "80"]
