@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "vite",
     "start": "npx serve -s dist -l 3000",
-    "build": "vite build",
+    "build": "vite build --outDir dist",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
