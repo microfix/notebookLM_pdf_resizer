@@ -17,8 +17,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "server": "vite preview --host",
-    "start": "vite preview --host",
+    "start": "npx serve -s dist -l 3000",
     "build": "vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
